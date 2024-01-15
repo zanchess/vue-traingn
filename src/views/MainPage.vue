@@ -1,4 +1,4 @@
-<!-- CardPage.vue -->
+<!-- PostPage.vue -->
 <template>
   <div  class="form-page">
     Main Page

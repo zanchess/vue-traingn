@@ -1,7 +1,7 @@
 // router.js
 import { createRouter, createWebHistory } from 'vue-router';
 import MainPage from "../views/MainPage.vue";
-import CardPage from "../views/CardPage.vue";
+import CardPage from "../views/PostPage.vue";
 import FormPage from "../views/FormPage.vue";
 
 const routes = [

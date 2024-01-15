@@ -1,4 +1,4 @@
-<!-- CardPage.vue -->
+<!-- PostPage.vue -->
 <template>
   <form class="form">
     <input type="text" class="form" v-model="message" name="account" id="form__account">

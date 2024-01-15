@@ -1,4 +1,4 @@
-<!-- CardPage.vue -->
+<!-- PostPage.vue -->
 <template>
   <header class="header">
     <h1 class="logo">

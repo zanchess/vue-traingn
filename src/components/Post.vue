@@ -1,19 +1,21 @@
-<!-- CardPage.vue -->
+<!-- PostPage.vue -->
 <template>
-  <div  class="card" v-if="!deleted">
+  <div  class="post">
     <!-- Place the content of your card here -->
     <h2>{{ title }}</h2>
-    <p>{{ content }}</p>
+    <p>{{ body }}</p>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+
+
 export default defineComponent({
   props: {
+    userId: Number,
     title: String,
-    content: String,
-    deleted: Boolean
+    body: String,
   },
   mounted() {
     console.log("Props:", this.title, this.content, this.deleted);
@@ -23,7 +25,7 @@ export default defineComponent({
 
 <style scoped>
 /* You can add styles for your card here */
-.card {
+.post {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
